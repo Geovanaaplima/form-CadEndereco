@@ -5,11 +5,7 @@ form{
  
 /* IMAGEM DE FUNDO */
 body{
-    background-image: url('./img/');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    
     display: flex;
     height: 100vh;
     align-items: center;
@@ -45,6 +41,7 @@ input {
     border: none 2px;
     border-color: black;
     outline: none;
+    width: 10rem;
     
 }
 input:hover {
@@ -73,3 +70,66 @@ option:checked{
     background-color: rgb(238, 101, 243) ;
     color: white;
 } */
+
+form {
+    width: 90vh;
+    height: 50vh;
+    background-color: bisque;
+}
+.column1 {
+
+  display: flex;
+  width: 520px;
+  justify-content: space-between;
+
+
+}
+
+.column1 input {
+    width: 5rem;
+    
+}
+
+.column2 {
+    margin-top: 20px;
+    display: flex;
+    width: 555px;
+    justify-content: space-between;
+  
+  
+  }
+.column2 input {
+    width: 5rem;
+    
+  
+}
+  
+
+
+
+#logradouro{
+    width: 10rem;
+}
+
+#numero {
+    width: 8rem;
+    
+}
+#bairro{
+    width: 10rem;
+}
+
+#complemento {
+    width: 10rem;
+}
+
+.col-5 {
+    margin-top: 20px;
+}
+
+#uf {
+    width: 10rem;
+}
+#localidade {
+    width: 8rem;
+}
