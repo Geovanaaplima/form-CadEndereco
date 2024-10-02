@@ -33,7 +33,7 @@ const pesquisarCep = async() =>{
     const url = `https://viacep.com.br/ws/${cep.value}/json/`;
  
     // Estrutura de condição
-    // Verifica se os argumentos são verdadeiros
+    // Verifica se os argumentos são verdadeiros 
     if(cepValido(cep.value)){
         // Retorna os todos dados do cep digitado pelo usuário
         // await busca e retorna sem erros os dados
